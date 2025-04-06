@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  color: white;
+  background: #FFA500;
+}
+
+:root {
+  --color-primary: #ffc36f; /* Light Orange */
+  --color-secondary: #FFA500; /* Orange */
+  --color-tertiary: #723f00; /* Dark Orange */
+}
